@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test') {
           steps {
-            echo 'testing the image'
+            echo 'testing the images'
           }
         }
 
@@ -20,7 +20,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        echo 'deploying the image'
+        echo 'deploying the images'
       }
     }
 
